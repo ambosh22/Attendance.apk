@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Login",
+    "slug": "Login",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/square.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/square.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.walexlim123.pattends"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "da9d533a-a4f2-47d6-b495-8d57214c1246"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/da9d533a-a4f2-47d6-b495-8d57214c1246"
+    }
+  }
+}
